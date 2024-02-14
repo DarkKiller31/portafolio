@@ -7,23 +7,15 @@ btnSwitch.addEventListener('click', () => {
 
 
 
-// if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)')) {
-//     document.body.classList.add('dark');
-// } else {
-//     document.body.classList.remove('light');
-// }
-// window.matchMedia('(prefers-color-scheme: dark)')
-//     .addEventListener('change', event => {
-//         document.body.classList.add('dark');
-//     })
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)')) {
+    document.body.classList.add('dark');
+} else {
+    document.body.classList.remove('light');
+}
+window.matchMedia('(prefers-color-scheme: dark)')
+    .addEventListener('change', event => {
+        document.body.classList.add('dark');
+    })
 
 
 
-// window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)')
-//         document.body.classList.add('dark');
-    
-        
-//     window.matchMedia('(prefers-color-scheme: dark)')
-//         .addEventListener('change', event => {
-//             document.body.classList.add('dark');
-//         })
