@@ -1,0 +1,30 @@
+body {
+  margin: 10px white;
+  text-align: center;
+  background-color: white;
+  color: white;
+}
+main {
+  background-color: black;
+  padding-top: 15px;
+  border-radius: 10px
+}
+figure {
+  background-color: rgba(74, 73, 73, 0.9);
+ padding: 10px;
+ display: block;
+ 
+}
+img {
+  display: block;
+  margin: 0 auto; 
+}
+#image {
+  max-width: 100%;
+}
+ul {
+  text-align: left;
+  max-width: 50%;
+  align-content: center;
+  margin: 0 auto;
+}

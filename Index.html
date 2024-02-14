@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Juan Camilo Trujillo">
+  <meta name="description" content="No más de 165 caracteres">
+  <meta name="keywords" content="palabra clave 1, palabra clave 2, palabra clave 3">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="assets/img/top-logo.png" type="image/png">
+  <!-- Iconos -->
+  <!-- https://boxicons.com/  -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <script type="module" src="assets/js/main.js" defer></script>
+  <script type="module" src="assets/js/helpers/change-theme.js" defer></script>
+  <script type="module" src="/assets/js/helpers/language-es.js" defer></script>
+
+  <script type="module" src="assets/js/helpers/send_form.js" defer></script>
+
+  <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('szWCeJypK4ltCOAFt')
+</script>
+
+  <title>Portafolio</title>
+</head>
+<body>
+  <header class="header">
+      <nav class="navbar grid--container">
+        <a href="Index.html" class="navbar_logo">
+          <img src="assets/img/logo.png" alt="Logo" class="img_logo">
+        </a>
+
+        <ul class="navbar_menu">
+          <li>
+            <a href="#home" class="navbar_items"><img src="assets/img/home.png" alt="Inicio" class="navbar_img"></a>
+          </li>
+          <li>
+            <a href="#about" class="navbar_items"><img src="assets/img/personal.png" alt="Acerca de mi" class="navbar_img"></a>
+          </li>
+          <li>
+            <a href="#skills" class="navbar_items"><img src="assets/img/mental.png" alt="Habilidades" class="navbar_img"></a>
+          </li>
+          <li>
+            <a href="#projects" class="navbar_items"><img src="assets/img/portafolio.png" alt="Portafolio" class="navbar_img"></a>
+          </li>
+          <li>
+            <a href="#contact" class="navbar_items"><img src="assets/img/contacto.png" alt="Contacto" class="navbar_img"></a>
+          </li>
+        </ul>
+        
+        <div class="navbar__toggles">
+          <div class="navbar_buttons">
+            <button class="switch_theme" id="switch">
+              <span><i class='bx bxs-sun bx-rotate-90' ></i></span>
+              <span><i class='bx bxs-moon' ></i></span>
+            </button>
+          </div>
+
+          <div class="navbar__toggle--language">
+            <button class="switch_language" id="switch_es">
+              <span><img src="/assets/img/spanish.png" alt="español"></span>
+              <span><img src="/assets/img/english.png" alt="ingles"></span>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </nav>
+  </header>
+  <main class="content">
+    <section id="home" class="home">
+      <i class='bx bxl-html5 home__layer home__layer--1' data-speed="-5"></i>
+      <i class='bx bxl-javascript home__layer home__layer--2' data-speed="5"></i>
+      <i class='bx bxl-css3 home__layer home__layer--3' data-speed="2"></i>
+      <i class='bx bxl-nodejs home__layer home__layer--4' data-speed="6"></i>
+      <i class='bx bxl-react home__layer home__layer--5' data-speed="8"></i>
+      <i class='bx bxl-tailwind-css home__layer home__layer--6' data-speed="-2"></i>
+      <i class='bx bxl-redux home__layer home__layer--7' data-speed="4"></i>
+      <i class='bx bxl-typescript home__layer home__layer--8' data-speed="-2"></i>
+      <i class='bx bxl-git home__layer home__layer--9' data-speed="6"></i>
+      <i class='bx bxl-graphql home__layer home__layer--10' data-speed="-7"></i>
+      <i class='bx bx-code-alt home__layer home__layer--11' data-speed="-5"></i>
+      <div class="home__container grid--container">
+        <div class="home__image">
+          <span></span>
+          <img class="img_profile" src="assets/img/profile.png" alt="profile photo" />
+        </div>
+
+        <ul class="home__social">
+          <li class="home__social-item">
+            <a class="home__social-link" href="https://www.linkedin.com/in/juan-camilo-trujillo-guzman-2578a2225" target="_blank"><i class="bx bxl-linkedin"></i></a>
+          </li>
+          <li class="home__social-item">
+            <a class="home__social-link" href="https://wa.me/+573195977937?text=Hola%20estoy%20interesado%20en%20tus%20servicios%20de%20desarrollo%20web" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+          </li>
+          <li class="home__social-item">
+            <a class="home__social-link" href="https://github.com/DarkKiller31" target="_blank"><i class='bx bxl-github'></i></a>
+          </li>
+          <li class="home__social-item">
+            <a class="home__social-link" href="mailto:jcamilot31@gmail.com" target="_blank"><i class='bx bx-envelope'></i></a>
+          </li>
+        </ul>
+
+        <div class="home__info">
+
+          <h1 class="home__title">Hola, Soy Camilo</h1>
+
+          <p class="home__description">
+            Soy un desarrollador web en constante aprendizaje. Con conocimientos en diseño arquitectonico y programación los cuales me dan un amplio criterio a la hora de abordar diferentes soluciones a problemáticas que se puedan presentar en el desarrollo web. Soy una apasionado por la tecnologia con hambre de nuevos desafios.
+          </p>
+        </div>
+
+        <div class="home__buttons">
+
+          <a href="https://docs.google.com/document/d/1_Y1wcyrdaDOxSMUUJdNPBs4EDb3AyyXUAkdpsUpYbYs/edit?usp=sharing" target="_blank">
+          <button class="btn btn--primary" type="button">Descarga CV</button>
+        </a>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="about" class="about section">
+      <h2 class="section__title">Acerca de Mí</h2>
+
+      <div class="about__container grid--container">
+        <p class="about__description">
+          Soy un entusiasta de la creatividad con un amor profundo por la arquitectura, la programación, el diseño y el bricolaje. Desde mi temprana fascinación por los espacios arquitectónicos hasta mi pasión por la codificación y el diseño innovador, encuentro en cada campo una oportunidad para expresar mi creatividad y habilidades.<br><br>
+
+          La arquitectura me cautiva con su capacidad para influir en nuestras vidas y emociones a través de los espacios que crea. La programación me permite transformar ideas abstractas en soluciones digitales tangibles. Mientras tanto, el diseño y el bricolaje me ofrecen un lienzo tangible donde puedo fusionar estética y funcionalidad de manera única. En cada proyecto, busco explorar nuevos límites, desafiarme y encontrar la belleza en la intersección de la forma y la función.<br><br>
+
+          Mi mundo está definido por la búsqueda constante de nuevas experiencias y desafíos creativos. Desde la planificación de proyectos arquitectónicos hasta la creación de soluciones tecnológicas, cada paso que doy refleja mi pasión por la innovación y el diseño. Soy un eterno aprendiz y creador, impulsado por el deseo de dejar una marca positiva en el mundo a través de mi trabajo y mi creatividad.
+        </p>
+
+        <div class="about__cards">
+          <!--Card 1 -->
+          <div class="about__card">
+            <img class="about__card--img" src="assets/img/arquitectura.png" alt="Laborando como ingeniero">
+          </div>
+          <!--Card 2 -->
+          <div class="about__card">
+            <img class="about__card--img" src="assets/img/programando.png" alt="Laborando como diseñador">
+          </div>
+          <!--Card 3 -->
+          <div class="about__card">
+            <img class="about__card--img" src="assets/img/me_3.jpg" alt="Trabajando en equipo">
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="skills" class="skills section">
+      <h2 class="section__title">Habilidades</h2>
+
+      <div class="skills__container grid--container">
+        <p class="skills__description">
+          Poseo habilidades sólidas en HTML, CSS y JavaScript. Me especializo en crear interfaces atractivas y funcionales, centrándome en la accesibilidad y la optimización. Actualmente estoy ampliando mis conocimientos para dominar React y crear aplicaciones web modernas y escalables.
+        </p>
+
+        <div class="skills__wrapper">
+          <div class="skills__cards">
+            <!--Card 1 -->
+            <input type="radio" name="slide" id="c1" checked class="skills__input">
+            <label for="c1" class="skills__card">
+              <div class="skills__card-row">
+                <i class="bx bxl-html5"></i>
+                <div class="skills__description">
+                  <h3 class="skills__card-title">HTML</h3>
+                  <p> Me especializo en crear estructuras sólidas y semánticas para sitios web, asegurando su accesibilidad y optimización para motores de búsqueda. Mi enfoque es construir bases robustas para proyectos digitales que proporcionen una excelente experiencia de usuario.</p>
+                </div>
+              </div>
+            </label>
+            <!--Card 2 -->
+            <input type="radio" name="slide" id="c2" checked class="skills__input">
+            <label for="c2" class="skills__card">
+              <div class="skills__card-row">
+                <i class="bx bxl-css3"></i>
+                <div class="skills__description">
+                  <h3 class="skills__card-title">CSS3</h3>
+                  <p>Me especializo en CSS y en la creación de diseños atractivos y responsivos para sitios web. Utilizo técnicas como CSS puro y preprocesadores como Sass para desarrollar interfaces que sean visualmente impactantes y altamente funcionales en cualquier dispositivo o navegador. Mi enfoque en el diseño web es garantizar que los sitios sean estéticamente agradables y fáciles de navegar para los usuarios.</p>
+                </div>
+              </div>
+            </label>
+            <!--Card 3 -->
+            <input type="radio" name="slide" id="c3" checked class="skills__input">
+            <label for="c3" class="skills__card">
+              <div class="skills__card-row">
+                <i class="bx bxl-javascript"></i>
+                <div class="skills__description">
+                  <h3 class="skills__card-title">Javascript</h3>
+                  <p>Me especializo en JavaScript, con un enfoque en las habilidades básicas de desarrollo web. Tengo experiencia en la creación de interactividad básica en sitios web, como validación de formularios, manipulación del DOM y manejo de eventos. Estoy comprometido a expandir mis conocimientos y habilidades en JavaScript para poder crear experiencias web más dinámicas y atractivas en el futuro.</p>
+                </div>
+              </div>
+            </label>
+            <!--Card 4 -->
+            <input type="radio" name="slide" id="c4" checked class="skills__input">
+            <label for="c4" class="skills__card">
+              <div class="skills__card-row">
+                <i class='bx bxl-react'></i>
+                <div class="skills__description">
+                  <h3 class="skills__card-title">React</h3>
+                  <p>Estoy enfocado en aprender y dominar React para crear aplicaciones web modernas y escalables. Mi interés se centra en la creación de componentes reutilizables y en la gestión eficiente del estado de la aplicación. Estoy comprometido a profundizar mis habilidades en React para desarrollar interfaces de usuario intuitivas y dinámicas que mejoren la experiencia del usuario y la eficiencia del desarrollo.</p>
+                </div>
+              </div>
+            </label>
+          </div>
+        </div>
+        <div class="skills__tags">
+          <h3 class="skills__tags-title">Habilidades Blandas</h3>
+          <div class="skills__tags-container">
+            <span class="skills__tag">Responsable</span>
+            <span class="skills__tag">Trabajo en equipo</span>
+            <span class="skills__tag">Creativo</span>
+            <span class="skills__tag">Puntual</span>
+            <span class="skills__tag">Proactivo</span>
+            <span class="skills__tag">Autodidacta</span>
+            <span class="skills__tag">Empatico</span>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects section">
+      <h2 class="section__title">Proyectos</h2>
+
+      <div class="projects__container grid--container">
+        <div class="projects__project">
+          <div class="projects__inner grid--container">
+            <div class="projects__image">
+              <img src="assets/img/project1.png" alt="project 1" />
+            </div>
+
+            <div class="projects__info">
+              <h3 class="projects__name">Proyecto Mi Primera Pagina</h3>
+              <p class="projects__description">
+                Es una pagina sencilla desarrollada con HTML, CSS y algo de JavaScript.
+              </p>
+
+              <div class="projects__buttons">
+                
+                <a href="https://darkkiller31.github.io/miprimerapagina/" target="_blank">
+                  <button class="btn projects__button" type="button">
+                  VER DEMO 
+                  </button>
+                </a>
+
+                <a href="http://https://github.com/DarkKiller31/miprimerapagina">
+                  <button class="btn projects__button" type="button">
+                    VER CÓDIGO
+                  </button>
+                </a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects__project">
+          <div class="projects__inner grid--container">
+            <div class="projects__image">
+              <img src="assets/img/project2.png" alt="project 1" />
+            </div>
+
+            <div class="projects__info">
+              <h3 class="projects__name">Proyecto Pagina de Producto en Freecodecamp</h3>
+              <p class="projects__description">
+                En este proyecto se busco recrear una pagina de producto empleando HTML y CSS.
+              </p>
+
+              <div class="projects__buttons">
+
+              <a href="assets/projects/project_2/index.html" target="_blank">
+                <button class="btn projects__button" type="button">
+                  VER DEMO
+                </button>
+              </a>
+              <a href="https://github.com/DarkKiller31/proyect-2-freecodecamp" target="_blank">
+                <button class="btn projects__button" type="button">
+                  VER CÓDIGO
+                </button>
+              </a>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects__project">
+          <div class="projects__inner grid--container">
+            <div class="projects__image">
+              <img src="assets/img/project3.png" alt="project 1" />
+            </div>
+
+            <div class="projects__info">
+              <h3 class="projects__name">Proyecto Pagina de Documentacion de JS en Freecodecamp</h3>
+              <p class="projects__description">
+                En este proyecto se busco recrear una pagina de documentacion de JS empleando HTML y CSS.
+              </p>
+
+              <div class="projects__buttons">
+
+                <a href="assets/projects/project_3/index.html" target="_blank">
+                <button class="btn projects__button" type="button">
+                  VER DEMO
+                </button>
+                </a>
+
+                <a href="https://github.com/DarkKiller31/proyect-3-freecodecamp" target="_blank">
+                <button class="btn projects__button" type="button">
+                  VER CÓDIGO
+                </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects__project">
+          <div class="projects__inner grid--container">
+            <div class="projects__image">
+              <img src="assets/img/project4.png" alt="project 1" />
+            </div>
+
+            <div class="projects__info">
+              <h3 class="projects__name">Proyecto Pagina Tributo en Freecodecamp</h3>
+              <p class="projects__description">
+                En este proyecto se busco recrear una pagina tributo empleando HTML y CSS.
+              </p>
+
+              <div class="projects__buttons">
+                <a href="assets/projects/project_4/index.html" target="_blank">
+                <button class="btn projects__button" type="button">
+                  VER DEMO
+                </button>
+                </a>
+                
+                <a href="https://github.com/DarkKiller31/proyect-4-freecodecamp" target="_blank">
+                <button class="btn projects__button" type="button">
+                  VER CÓDIGO
+                </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <h2 class="section__title">Contacto</h2>
+
+      <div class="contact__container grid--container">
+        <div class="contact__info">
+          <h3 class="contact__info-title">Información de contacto</h3>
+          <p class="contact__info-description">
+            No dude en ponerse en contacto conmigo enviando el siguiente formulario y me comunicaré con usted lo antes posible.
+          <address class="contatc__info-data">
+            <div class="contact__info-item">
+              <i class='bx bxl-whatsapp'></i>
+
+              <span class="contact__info-number">
+                <a href="https://wa.me/+573195977937?text=Hola%20estoy%20interesado%20en%20tus%20servicios%20de%20desarrollo%20web" target="_blank">Enviar mensaje a
+                  WhatsApp</a>
+              </span>
+            </div>
+
+            <div class="contact__info-item">
+              <i class="bx bx-phone"></i>
+
+              <span class="contact__info-number">
+                <a href="tel:1-234-567-8910"> +57 319 597 7937 </a>
+              </span>
+            </div>
+
+            <div class="contact__info-item">
+              <i class="bx bxs-envelope"></i>
+
+              <span class="contact__info-mail">
+                <a id="mail" href="mailto:jcamilot31@gmail.com"> jcamilot31@gmail.com </a>
+              </span>
+            </div>
+
+            <div class="contact__info-item">
+              <i class="bx bx-map"></i>
+
+              <span class="contact__info-map"> Ibagué, Colombia. </span>
+            </div>
+          </address>
+        </div>
+
+        <div class="contact__form">
+          <h3 class="contact__form-title">Enviar mensaje</h3>
+
+          <form id="form" class="contact__form-container">
+            <div class="contact__form-group">
+              <label for="name" class="contact__form-label">Nombre</label>
+              <input type="text" id="name" name="name" class="contact__form-input" />
+            </div>
+
+            <div class="contact__form-group">
+              <label for="email" class="contact__form-label">Correo</label>
+              <input type="email" id="email" name="email" class="contact__form-input" />
+            </div>
+
+            <div class="contact__form-group">
+              <label for="subject" class="contact__form-label">Asunto</label>
+              <input type="text" id="subject" name="subject" class="contact__form-input" />
+            </div>
+
+            <div class="contact__form-group">
+              <label for="message" class="contact__form-label">Mensaje</label>
+              <textarea id="message" name="message" cols="30" rows="10" class="contact__form-input"></textarea>
+            </div>
+
+            <input type="submit" id="button" value="Enviar" class="btn contact__form-button">
+
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer section">
+    <div class="footer__container grid--container">
+      <div class="footer__info">
+        <h3 class="footer__title">Juan Camilo Trujillo</h3>
+        <p class="footer__description">
+          "Soy desarrollador web con un enfoque distintivo en el diseño, fusionando habilidades técnicas en programación con una sensibilidad creativa para crear experiencias digitales impactantes y centradas en el usuario."
+        </p>
+      </div>
+
+      <div class="footer__social">
+        <h3 class="footer__title">Redes Sociales</h3>
+
+        <ul class="footer__social-list">
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="https://web.facebook.com/juancamilo.trujilloguzman/" target="_blank"><i class="bx bxl-facebook"></i></a>
+          </li>
+
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="https://www.instagram.com/juancamilo9421/" target="_blank"><i class="bx bxl-instagram"></i></a>
+          </li>
+
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="https://www.linkedin.com/in/juan-camilo-trujillo-guzman-2578a2225" target="_blank"><i class="bx bxl-linkedin"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="footer_copy"></p>
+  </footer>
+</body>
+</html>
